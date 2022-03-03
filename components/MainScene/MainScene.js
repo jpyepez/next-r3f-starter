@@ -1,10 +1,10 @@
 import { shaderMaterial } from '@react-three/drei'
 import { extend } from '@react-three/fiber'
 import { Vector2 } from 'three'
-import BoxMesh from '../Mesh/BoxMesh'
-import PlaneMesh from '../Mesh/PlaneMesh'
-import vertexShader from '../../public/shaders/vertexShader.vert'
-import fragShader from '../../public/shaders/fragShader.frag'
+import BoxMesh from 'components/Mesh/BoxMesh'
+import PlaneMesh from 'components/Mesh/PlaneMesh'
+import vertexShader from 'public/shaders/vertexShader.vert'
+import fragShader from 'public/shaders/fragShader.frag'
 
 const MainScene = () => {
     const ShaderMaterial = shaderMaterial(
